@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>2000</width>
-  <height>766</height>
+  <height>1500</height>
   <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
@@ -201,6 +201,19 @@
     <instance objName="obj_ground" x="1584" y="640" name="inst_286588CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="1600" y="640" name="inst_08B6056F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="1616" y="640" name="inst_97D0D4B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="736" y="576" name="inst_B83B386B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="864" y="464" name="inst_5976B0C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="880" y="464" name="inst_1C51C652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="912" y="464" name="inst_68C607C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="960" y="480" name="inst_928DD0B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1040" y="496" name="inst_C7D47D70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1088" y="496" name="inst_F121B212" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1120" y="496" name="inst_B6767CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1168" y="496" name="inst_D3DA4761" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1200" y="496" name="inst_1D79232D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1216" y="496" name="inst_6937213F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1232" y="496" name="inst_C4DE27D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shadeTest2" x="1648" y="304" name="inst_CF340E3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
