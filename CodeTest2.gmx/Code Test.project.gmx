@@ -29,6 +29,7 @@
       <sprite>sprites\spr_shadeRun</sprite>
     </sprites>
     <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_light</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -78,6 +79,7 @@
     <object>objects\obj_shadeTest</object>
     <object>objects\obj_shadeTest2</object>
     <object>objects\GitTest1</object>
+    <object>objects\obj_light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_charSelect</room>
