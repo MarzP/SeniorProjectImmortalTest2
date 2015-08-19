@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_nextRoom" x="416" y="224" name="inst_04A95901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_nextRoom" x="32" y="224" name="inst_DC010A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_nextRoom" x="64" y="192" name="inst_DC010A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nextRoom" x="576" y="256" name="inst_51B2BF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nextRoom" x="192" y="288" name="inst_55D35B76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nextRoom" x="576" y="96" name="inst_BEF82F9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
