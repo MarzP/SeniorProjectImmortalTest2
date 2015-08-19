@@ -83,9 +83,8 @@
     <object>objects\obj_light</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu2</room>
-    <room>rooms\rm_charSelect2</room>
-    <room>rooms\rm_test2</room>
+    <room>rooms\rm_test3</room>
+    <room>rooms\rm_test4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
