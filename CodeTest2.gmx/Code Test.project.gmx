@@ -60,6 +60,7 @@
     </objects>
     <objects name="Player">
       <object>objects\obj_player</object>
+      <object>objects\obj_playerTest2</object>
     </objects>
     <objects name="+ -">
       <object>objects\obj_strMinus</object>
@@ -84,6 +85,7 @@
   <rooms name="rooms">
     <room>rooms\rm_charSelect</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_defined</room>
     <room>rooms\rm_menu</room>
   </rooms>
   <help>

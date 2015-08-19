@@ -153,6 +153,7 @@
     <instance objName="obj_ground" x="672" y="480" name="inst_4A550A9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="680" y="480" name="inst_2494B9B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="688" y="480" name="inst_2AFCF909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_player" x="48" y="408" name="inst_7D1622E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_light" x="240" y="424" name="inst_77D09AE2" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="0" y="528" name="inst_24698E01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -705,6 +706,10 @@
     <instance objName="obj_ground" x="592" y="520" name="inst_920A6817" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="568" y="528" name="inst_407305F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ground" x="648" y="496" name="inst_B6507AD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_playerTest2" x="48" y="328" name="inst_99C0D34F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="88" y="328" name="inst_AC129621" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> 58c1163cd4cf77cd36c0e64be089da0f3b8790d2
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
