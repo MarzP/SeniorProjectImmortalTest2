@@ -87,7 +87,7 @@ draw_set_blend_mode(bm_normal);
 surface_reset_target();
 draw_surface_ext(surf, 0, 0, 2, 2, 0, c_white, 1);
     {
-    else
+    
     }
 surf = surface_create(room_width / 2, room_height /2);
 }
