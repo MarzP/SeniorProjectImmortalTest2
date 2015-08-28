@@ -28,9 +28,7 @@
       <sprite>sprites\spr_shadeAttackLeft</sprite>
       <sprite>sprites\spr_shadeRun</sprite>
     </sprites>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\spr_light</sprite>
-    <sprite>sprites\spr_player_light</sprite>
+    <sprite>sprites\spr_torch</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -81,10 +79,8 @@
     <object>objects\obj_shadeTest</object>
     <object>objects\obj_shadeTest2</object>
     <object>objects\GitTest1</object>
-    <object>objects\obj_light</object>
-    <object>objects\obj_shadow_new</object>
-    <object>objects\obj_player_light</object>
-    <object>objects\obj_light_surface</object>
+    <object>objects\obj_lighting</object>
+    <object>objects\obj_torch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test3</room>
