@@ -74,7 +74,7 @@ surface_free(surf);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if surface_exists(surf)
+            <string>   if surface_exists(surf)
 {
 surface_set_target(surf);
 draw_clear_alpha(c_black,0.85);
@@ -86,9 +86,9 @@ draw_set_blend_mode(bm_subtract);
 draw_set_blend_mode(bm_normal);
 surface_reset_target();
 draw_surface_ext(surf, 0, 0, 2, 2, 0, c_white, 1);
-    {
+{
     
-    }
+}
 surf = surface_create(room_width / 2, room_height /2);
 }
 </string>
