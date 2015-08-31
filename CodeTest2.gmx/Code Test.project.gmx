@@ -85,6 +85,7 @@
     <object>objects\obj_shadow_new</object>
     <object>objects\obj_player_light</object>
     <object>objects\obj_light_surface</object>
+    <object>objects\obj_textBox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test3</room>
