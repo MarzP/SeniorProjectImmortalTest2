@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1600</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,13 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>surf = -1;
+            <string>global.light = surface_create(view_wview,view_hview);
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="5">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,10 +48,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if surface_exists(surf)
-{
-surface_free(surf);
-}
+            <string>surface_set_target(global.light);
+draw_set_color(c_white);
+draw_rectangle(0,0,view_wview,view_hview,false);
+surface_reset_target();
+
 </string>
           </argument>
         </arguments>
@@ -74,23 +75,9 @@ surface_free(surf);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>   if surface_exists(surf)
-{
-surface_set_target(surf);
-draw_clear_alpha(c_black,0.85);
-draw_set_blend_mode(bm_subtract);
- with (obj_light)
-    {
-    draw_sprite_ext(sprite_index, image_index, x / 2,y / 2, image_yscale, image_xscale, image_angle, c_white, 1);
-    }
+            <string>draw_set_blend_mode(bm_subtract);
+draw_surface(global.light,view_xview,view_yview);
 draw_set_blend_mode(bm_normal);
-surface_reset_target();
-draw_surface_ext(surf, 0, 0, 2, 2, 0, c_white, 1);
-{
-    
-}
-surf = surface_create(room_width / 2, room_height /2);
-}
 </string>
           </argument>
         </arguments>
