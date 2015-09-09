@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.light = surface_create(view_wview,view_hview);
+            <string>global.light = surface_create(view_wview, view_hview);
+
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,7 @@
           <argument>
             <kind>1</kind>
             <string>surface_set_target(global.light);
-draw_set_color(c_white);
+draw_set_color(c_ltgray);
 draw_rectangle(0,0,view_wview,view_hview,false);
 surface_reset_target();
 
