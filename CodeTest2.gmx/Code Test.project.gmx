@@ -86,8 +86,8 @@
     <object>objects\obj_torch</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_test3</room>
     <room>rooms\rm_test4</room>
+    <room>rooms\rm_test3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
