@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>randomize();
+
 friction = 0.8;
 //Ability Scores/Mods
 global.strscore = 10;
@@ -143,6 +144,8 @@ missile = 1; mm = 1;
           <argument>
             <kind>1</kind>
             <string>{
+
+
 //Maintaining Ability Modifiers
 
 global.strmod = (global.strscore-10)/2;
@@ -298,6 +301,8 @@ keyboard_check_pressed(ord("C")){
         i
     }}
     */
+    
+    
 }
 </string>
           </argument>
