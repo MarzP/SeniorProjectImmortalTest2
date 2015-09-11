@@ -19,6 +19,7 @@
       <sprite>sprites\spr_shadow</sprite>
       <sprite>sprites\sprite6</sprite>
       <sprite>sprites\spr_plus</sprite>
+      <sprite>sprites\spr_health</sprite>
     </sprites>
     <sprite>sprites\spr_magicMissile</sprite>
     <sprite>sprites\spr_LOS</sprite>
@@ -46,6 +47,8 @@
       <object>objects\obj_cycle</object>
       <object>objects\obj_solid</object>
       <object>objects\obj_ground</object>
+      <object>objects\obj_health</object>
+      <object>objects\obj_textBox</object>
     </objects>
     <objects name="DrawAbility">
       <object>objects\obj_drawStrScore</object>
@@ -79,7 +82,6 @@
     <object>objects\obj_shadeTest</object>
     <object>objects\obj_shadeTest2</object>
     <object>objects\GitTest1</object>
-    <object>objects\obj_textBox</object>
     <object>objects\obj_lighting</object>
     <object>objects\obj_torch</object>
   </objects>
