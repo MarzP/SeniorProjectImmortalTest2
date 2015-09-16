@@ -57,6 +57,7 @@ global.keyboard = 1;
 //Player HP
 global.playerHP = global.conmod + choose (1,2,3,4,5,6,7, 8);
 global.playerMaxHP = global.playerHP
+
 /*
 if (global.playerHP &lt;= 1) {
 global.playerHP = 1;
@@ -303,7 +304,10 @@ keyboard_check_pressed(ord("C")){
     }}
     */
     
-    
+//death announcement and end
+    if (global.playerHP &lt;= 0) {
+        room_goto(rm_death);
+    }
 }
 </string>
           </argument>

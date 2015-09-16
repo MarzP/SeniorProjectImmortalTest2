@@ -28,8 +28,14 @@
       <sprite>sprites\spr_shadeAttackRight</sprite>
       <sprite>sprites\spr_shadeAttackLeft</sprite>
       <sprite>sprites\spr_shadeRun</sprite>
+      <sprite>sprites\spr_shade2</sprite>
     </sprites>
     <sprite>sprites\spr_torch</sprite>
+    <sprite>sprites\spr_shade2bullet</sprite>
+    <sprite>sprites\spr_restartButton</sprite>
+    <sprite>sprites\spr_quitButton</sprite>
+    <sprite>sprites\spr_xButton</sprite>
+    <sprite>sprites\spr_youDied</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -84,10 +90,18 @@
     <object>objects\GitTest1</object>
     <object>objects\obj_lighting</object>
     <object>objects\obj_torch</object>
+    <object>objects\obj_shade2</object>
+    <object>objects\obj_shade2bullet</object>
+    <object>objects\obj_restartButton</object>
+    <object>objects\obj_quitButton</object>
+    <object>objects\object35</object>
+    <object>objects\obj_youDied</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test4</room>
     <room>rooms\rm_test3</room>
+    <room>rooms\room2</room>
+    <room>rooms\rm_death</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
