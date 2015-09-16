@@ -82,12 +82,14 @@
     <object>objects\obj_shadeTest</object>
     <object>objects\obj_shadeTest2</object>
     <object>objects\GitTest1</object>
-    <object>objects\obj_lighting</object>
-    <object>objects\obj_torch</object>
+    <objects name="Darkness and Torch">
+      <object>objects\obj_torch</object>
+      <object>objects\obj_lighting</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_lightsnstuff</room>
     <room>rooms\rm_test4</room>
-    <room>rooms\rm_test3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

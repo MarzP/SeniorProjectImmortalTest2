@@ -53,7 +53,7 @@
   <instances>
     <instance objName="obj_textBox" x="352" y="224" name="inst_A92E1B0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_nextRoom" x="128" y="320" name="inst_13E589CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_health" x="224" y="128" name="inst_1756FF38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_health" x="224" y="192" name="inst_1756FF38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_playerTest2" x="224" y="320" name="inst_F463A0CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="96" y="320" name="inst_90ECA22B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solid" x="96" y="352" name="inst_5705BD3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

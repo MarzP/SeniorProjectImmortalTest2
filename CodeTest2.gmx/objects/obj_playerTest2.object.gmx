@@ -296,14 +296,7 @@ if (keyboard_check (vk_control)) { /*
         }
         
     }
-    /*
-keyboard_check_pressed(ord("C")){
-    if (object_exists(obj_torch)) {
-        i
-    }}
-    */
-    
-    
+
 }
 </string>
           </argument>
